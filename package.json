@@ -1,0 +1,17 @@
+{
+    "name": "web3",
+    "version": "1.0.0",
+    "main": "deploy.js",
+    "scripts": {
+        "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "ethers": "^6.8.0",
+        "fs-extra": "^11.1.1"
+    }
+}
